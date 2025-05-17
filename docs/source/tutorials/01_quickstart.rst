@@ -16,7 +16,7 @@ First, let's load the robot.
     robot = pk.Robot.from_urdf(urdf)
 
 
-Now, let's solve the IK problem using the :func:`solve_ik` snippit available in :mod:`pyroki_snippets`.
+Now, let's solve the IK problem using the :func:`solve_ik` snippet available in :mod:`pyroki_snippets`.
 
 .. code-block:: python
 

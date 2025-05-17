@@ -8,7 +8,7 @@ This section expands on the :doc:`basic IK example <01_quickstart>` by extending
 3. Incorporating collision avoidance costs.
 4. Optimizing for robot end-effector manipulability.
 
-All the examples below are available as snippits in :mod:`pyroki_snippets`, and interactive demos are located in the ``examples/`` directory.
+All the examples below are available as snippets in :mod:`pyroki_snippets`, and interactive demos are located in the ``examples/`` directory.
 
 
 ==========================================
