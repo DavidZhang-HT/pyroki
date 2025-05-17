@@ -28,7 +28,16 @@ git clone https://github.com/chungmin99/pyroki.git
 cd pyroki
 pip install -e .
 ```
+## Custom URDFs
+Place URDF files that you want to experiment with inside the `urdf/` directory located at the project root.
+You can load them with `pyroki.load_custom_urdf` and then create a `Robot` instance:
 
+```python
+import pyroki as pk
+
+urdf = pk.load_custom_urdf("my_robot.urdf")
+robot = pk.Robot.from_urdf(urdf)
+```
 
 ## Status
 
