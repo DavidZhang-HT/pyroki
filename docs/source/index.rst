@@ -51,6 +51,7 @@ Examples
    examples/05_ik_with_manipulability
    examples/06_online_planning
    examples/07_trajopt
+   examples/08_pi12dof_ik
 
 
 Acknowledgements
